@@ -30,15 +30,15 @@
 }
 
 #divider_1{
-    top: -50px;
+    top: -150px;
 }
 
 #divider_2{
-    top: 190px;
+    top: 150px;
 }
 
 #divider_3{
-    top: 440px;
+    top: 450px;
 }
 .road{
     display: flex;

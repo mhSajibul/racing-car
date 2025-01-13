@@ -3,7 +3,7 @@ $(document).ready(function () {
     const gameArea = $('#gameArea');
     const myCar = $('#myCar');
     const opponentCars = [$('#opponentCar1'), $('#opponentCar2'), $('#opponentCar3')];
-    const dividers = [$('#divider_1'), $('#divider_2'), $('#divider_3')];
+    const dividerLines = [$('#divider_1'), $('#divider_2'), $('#divider_3')];
     const scoreBoard = $('#scoreBoard span');
     const restartButton = $('#restart button');
 
@@ -55,10 +55,11 @@ $(document).ready(function () {
     }
 
     function dividersRun(){
-        dividers.forEach((lan) => {
+        dividerLines.forEach((lan) => {
             let lan_1 =parseInt(lan.css('top'));
             if (lan_1 > gameArea.height()){
                 lan_1 = -150;
+                lan.css('top', `${ (gameArea.width() - lan.width())}px`);
             }
             lan.css('top',`${lan_1+ dividerSpeed}`);
         });
