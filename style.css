@@ -1,0 +1,173 @@
+    body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to right,#a900f7,#a200a8, #3200a8);
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+#gameArea {
+    position: relative;
+    background: linear-gradient(to right, #777777, #aaaaaa, #777777);
+    height: 100vh; /* Ensure it occupies the full viewport height */
+    width: 350px;
+    margin-left: 15%; /* Center the game area horizontally */
+    border-left: 3px solid #220000; /* Add a black border for a clearer boundary */
+    border-right: 3px solid #220000; /* Add a black border for a clearer boundary */
+    border-radius: 5px; /* Slightly rounded corners for a modern look */
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.divider{
+    position: absolute;
+    height: 150px;
+    width: 2%;
+    margin:0 auto;
+    background-color: aliceblue;
+    box-shadow: black;;
+}
+
+#divider_1{
+    top: -50px;
+}
+
+#divider_2{
+    top: 190px;
+}
+
+#divider_3{
+    top: 440px;
+}
+.road{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car{
+    position: absolute;
+    width: 40px;
+    height: 70px;
+    border-radius: 10px 10px 5px 5px;
+    box-shadow: black;
+}
+
+#myCar{
+    bottom: 7%;
+    background-color: #4e00a8;
+    left: 55%;
+}
+
+#opponentCar1{
+    top: 24%;
+    background-color: #db0101;
+    left: 15%;
+}
+#opponentCar2{
+    top: 8%;
+    background-color: #00a808;
+    left: 75%;
+}
+#opponentCar3{
+    top: 56%;
+    background-color: #00a870;
+    left: 45%;
+}
+
+/* Car style */
+.f_galss{
+    position: absolute;
+    height: 20px;
+    width: 30px;
+    background-color: #fde7a8;
+    top: 10px;
+    right: 5px;
+    border-radius: 5px;
+}
+.b_galss{
+    position: absolute;
+    height: 15px;
+    width: 30px;
+    background-color: #fde7a8;
+    bottom: 8px;
+    right: 5px;
+    border-radius: 5px;
+}
+.r_light{
+    position: absolute;
+    height: 5px;
+    width: 8px;
+    background-color: azure;
+    top: 0px;
+    right: 4px;
+    border-radius: 100%;
+}
+.l_light{
+    position: absolute;
+    height: 5px;
+    width: 8px;
+    background-color: azure;
+    top: 0px;
+    left: 4px;
+    border-radius: 100%;
+}
+.front_r_tayer{
+    position: absolute;
+    height: 15px;
+    width: 8px;
+    background-color: #191a1a;
+    top: 10px;
+    right: -4px;
+    border-radius: 100%;
+}
+.front_l_tayer{
+    position: absolute;
+    height: 15px;
+    width: 8px;
+    background-color: #191a1a;
+    top: 10px;
+    left: -4px;
+    border-radius: 100%;
+}
+.back_r_tayer{
+    position: absolute;
+    height: 15px;
+    width: 8px;
+    background-color: #191a1a;
+    bottom: 7px;
+    right: -4px;
+    border-radius: 100%;
+}
+.back_l_tayer{
+    position: absolute;
+    height: 15px;
+    width: 8px;
+    background-color: #191a1a;
+    bottom: 7px;
+    left: -4px;
+    border-radius: 100%;
+}
+/* Car style end */
+
+
+#scoreBoard{
+    
+    position: absolut;
+    height: 8%;
+    width: 20%;
+    margin-top: 10px ;
+    margin-left: 18px ;
+    background-color: rgba(31, 31, 31, 0.4);
+    color: #FFF;
+    border-radius: 6px;
+    text-align: left;
+    font-size: medium;
+}
+
+p{
+    padding: 10px;
+}
+
+
