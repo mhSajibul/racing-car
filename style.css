@@ -61,17 +61,17 @@
 }
 
 #opponentCar1{
-    top: 24%;
+    top: -160px;
     background-color: #db0101;
     left: 15%;
 }
 #opponentCar2{
-    top: 8%;
+    top: 0%;
     background-color: #00a808;
     left: 75%;
 }
 #opponentCar3{
-    top: 56%;
+    top: -300px;
     background-color: #00a870;
     left: 45%;
 }
@@ -158,7 +158,8 @@
     height: 8%;
     width: 20%;
     margin-top: 10px ;
-    margin-left: 18px ;
+    margin-left: 15px ;
+    padding: 15px;
     background-color: rgba(31, 31, 31, 0.4);
     color: #FFF;
     border-radius: 6px;
@@ -166,8 +167,13 @@
     font-size: medium;
 }
 
-p{
-    padding: 10px;
+button {
+    float: inline-end;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    
 }
+
 
 
