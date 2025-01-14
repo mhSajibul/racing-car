@@ -168,12 +168,15 @@
 }
 
 button {
-    float: inline-end;
+    float: inline-start;
     padding: 5px 10px;
     font-size: 16px;
     cursor: pointer;
+    z-index:auto;
     
 }
+
+
 
 
 

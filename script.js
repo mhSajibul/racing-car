@@ -166,6 +166,8 @@ $(document).ready(function () {
         location.reload();
     });
 
+    
+
     // Collision detection function
     function checkCollision($div1, $div2) {
         var x1 = $div1.offset().left;
